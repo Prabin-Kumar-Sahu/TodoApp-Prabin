@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -101,7 +102,7 @@ ul li::before {
 }
 
 ul li.checked{
-    color: rgb(18, 218, 18) ;
+    color: green ;
     text-decoration: line-through;
 
 }
@@ -126,89 +127,93 @@ ul li span{
     background: #5642ca;
  }
 
- @media  (max-width:400px){
-    .container{
-       width: 300px;
-
-    }
-    
- }
- /* Media queries */
+/* Media queries */
 @media (max-width: 768px) {
-    .todo_app {
-      margin: 50px auto 10px;
-      padding: 30px 20px 50px;
-    }
-    
-    .todo_app h1 img {
-      width: 40px;
-      height: 40px;
-      margin: 5px;
-    }
-    
-    .row {
-      padding-left: 10px;
-      margin-bottom: 20px;
-    }
-    
-    input {
-      font-size: 16px;
-    }
-    
-    button {
-      padding: 12px 40px;
-      font-size: 16px;
-      margin-left: 5px;
-    }
-    
-    ul li {
-      font-size: 16px;
-      padding: 10px 6px 10px 40px;
-    }
-    
-    ul li::before {
-      height: 20px;
-      width: 20px;
-      left: 10px;
-    }
+  .todo_app {
+    margin: 50px auto 10px;
+    padding: 30px 20px 50px;
   }
   
-  @media (max-width: 480px) {
-    .todo_app {
-      margin: 30px auto 0;
-      padding: 20px 15px 40px;
-    }
-    
-    .todo_app h1 img {
-      width: 30px;
-      height: 30px;
-      margin: 3px;
-    }
-    
-    .row {
-      padding-left: 5px;
-      margin-bottom: 15px;
-    }
-    
-    input {
-      font-size: 14px;
-    }
-    
-    button {
-      padding: 10px 30px;
-      font-size: 14px;
-      margin-left: 3px;
-    }
-    
-    ul li {
-      font-size: 14px;
-      padding: 8px 4px 8px 30px;
-    }
-    
-    ul li::before {
-      height: 16px;
-      width: 16px;
-      left: 5px;
-    }
+  .todo_app h1 img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
   }
+  
+  .row {
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 40px;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  
+  ul li {
+    font-size: 16px;
+    padding: 10px 6px 10px 40px;
+  }
+  
+  ul li::before {
+    height: 20px;
+    width: 20px;
+    left: 10px;
+  }
+  
+  .add-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .todo_app {
+    margin: 30px auto 0;
+    padding: 20px 15px 40px;
+  }
+  
+  .todo_app h1 img {
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+  }
+  
+  .row {
+    padding-left: 5px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 30px;
+    font-size: 14px;
+    margin-left: 3px;
+  }
+  
+  ul li {
+    font-size: 14px;
+    padding: 8px 4px 8px 30px;
+  }
+  
+  ul li::before {
+    height: 16px;
+    width: 16px;
+    left: 5px;
+  }
+  
+  .add-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
   
